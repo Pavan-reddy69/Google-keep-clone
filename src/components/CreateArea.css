@@ -1,0 +1,14 @@
+/* CreateArea.css */
+
+.add-button {
+    font-size: 35px;
+  
+  
+ 
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .add-button:hover {
+    transform: scale(1.2); /* Increase the size by 10% upon hover */
+  }
+  
