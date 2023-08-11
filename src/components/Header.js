@@ -8,7 +8,7 @@ function Header() {
     />
   );
   return (
-    <div className="header">
+    <div className="header" style={{width:"100%"}}>
       {logo}
       <h1>Keep</h1>
     </div>

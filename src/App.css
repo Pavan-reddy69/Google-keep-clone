@@ -10,13 +10,13 @@ html {
 
 body {
   position: relative;
-  width: 1270px;
+  width: 100%;
   background: #ffffff;
 }
 
 .header {
   background-color: #ffffff;
-  margin: auto -10px;
+ 
   padding: 10px 20px;
   box-shadow: 0 0 2px 0 rgb(110, 110, 110);
   flex-direction: row;

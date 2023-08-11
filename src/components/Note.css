@@ -2,6 +2,7 @@
     border: 1px solid #ccc;
     padding: 10px;
     width: 200px;
+    height: 170px;
     position: relative;
     margin-bottom: 10px;
     transition: transform 0.2s; /* Add transition for smooth animation */
@@ -12,8 +13,8 @@
     justify-content: space-between;
     align-items: center;
     position: absolute;
-    bottom: 0;
-    right: 0;
+    bottom: 5px;
+    right: 2px;
     transition: transform 0.2s; /* Add transition for smooth animation */
   }
   
@@ -22,8 +23,8 @@
     justify-content: space-between;
     align-items: center;
     position: absolute;
-    top: 0;
-    right: 0;
+    top: 5px;
+    right: 2px;
     transition: transform 0.2s; /* Add transition for smooth animation */
   }
   
@@ -31,7 +32,7 @@
   .note:hover {
     
    
-    box-shadow: 2px 2px 2px rgb(0, 0, 0);  
+    box-shadow: 1px 1px 1px rgba(50, 48, 48, 0.484);  
   
   }
   
@@ -53,11 +54,11 @@
     border-radius: 6px;
     padding: 5px;
     width: 100%;
-    height: 75%;
+    height: 55%;
     resize: vertical;
-    margin-bottom: 8px;
+    margin-bottom: 0px;
     /* Set the minimum height to one line */
-    min-height: 24px;
+    min-height: 14px;
   }
   
   /* Styles for the input when in editing mode */
@@ -66,14 +67,14 @@
     border-radius: 5px;
     padding: 8px;
     width: 100%;
-    margin-bottom: 8px;
+    margin-bottom: 7px;
   }
   
   /* Styles for the Save button when in editing mode */
   .note.editing button {
     display: block;
-    margin: 0 auto;
-    padding: 8px 16px;
+    margin: 0 ;
+    padding: 6px 10px;
     background-color: #4285f4;
     color: #fff;
     border: none;
